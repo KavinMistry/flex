@@ -1,0 +1,16 @@
+name: flex
+version: '1.0.0'
+main: kavin.mistry.flex.Flex
+api-version: '1.21'
+commands:
+  show:
+    description: "This will show your current item in chat"
+    usage: "/show"
+    aliases: [flex]
+    permission: show.command
+    permission-message: "You do not have the required permission to run this command"
+
+permissions:
+  show.command:
+    description: "Allows players to use the /show command"
+    default: true
